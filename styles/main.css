@@ -10,7 +10,8 @@ body {
 }
 
 @font-face { 
-  font-family: "Karmatic"; src: url("../pages/karmaticarcade.woff2")
+  font-family: "Karmatic"; src: url("../pages/karmaticarcade.woff2");
+  display: 'optional';
 }
 
 h1 {
