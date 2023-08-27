@@ -2,6 +2,8 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import localFont from 'next/font/local'
 
+const myFont = localFont({ src: './karmaticarcade.woff2' })
+
 export default function Home() {
   return (
     <div>
@@ -11,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
+        <h1 className={myFont.className}>
           De Anza Hacks
         </h1>
         <h2>
